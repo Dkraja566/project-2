@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply_box">
+
+            <h1>Job Application
+
+                <span class="title_small">(web)</span>
+
+            </h1>
+            <form action="">
+                <div class="form_container">
+
+                    <div class="form_control">
+                        <label for="first_name">First name</label>
+                        <input id="first_name" type="text" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="last_name">Last name</label>
+                        <input id="last_name" type="text" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="job_role">Job role</label>
+                        <select id="job_role" name="job_role">
+                            <option value="">Select a role</option>
+                            <option value="web_developer">Web Developer</option>
+                            <option value="software_engineer">Software Engineer</option>
+                            <option value="data_scientist">Data Scientist</option>
+                            <option value="product_manager">Product Manager</option>
+                            <option value="ux_ui_designer">UX/UI Designer</option>
+                            <option value="project_manager">Project Manager</option>
+                            <option value="full_stack_developer">Full Stack Developer</option>
+                            <option value="backend_developer">Backend Developer</option>
+                            <option value="frontend_developer">Frontend Developer</option>
+                            <option value="mobile_developer">Mobile Developer</option>
+                            <option value="security_engineer">Security Engineer</option>
+                            <option value="business_analyst">Business Analyst</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="textarea_control">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="address" rows="4" cols="50"
+                            placeholder="Enter your address"></textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="phone_number">Phone number</label>
+                        <input id="phone_number" type="tel" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="pin_code">Pin code</label>
+                        <input id="pin_code" type="number" placeholder="Enter your pin code" required>
+                    </div>
+                    <div class="form_control">
+                        <label for="date">date</label>
+                        <input id="date" type="date">
+                    </div>
+                    <div class="form_control">
+                        <label for="cv">CV</label>
+                        <input id="cv" type="file" accept=".pdf,.doc,.docx" required>
+                    </div>
+                </div>
+
+                <div class="btn_container">
+                    <button type="submit">Submit Now</button>
+                </div>
+
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
